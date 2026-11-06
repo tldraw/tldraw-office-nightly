@@ -1,6 +1,6 @@
-# tldraw offline nightly
+# tldraw office nightly
 
-The nightly channel for [tldraw offline](https://github.com/tldraw/tldraw-offline) — a local whiteboard for you and your agents. Nightly builds are packaged from the latest source before changes ship to stable users.
+The nightly channel for [tldraw office](https://github.com/tldraw/tldraw-offline) (formerly tldraw offline) — a local whiteboard for you and your agents. Nightly builds are packaged from the latest source before changes ship to stable users.
 
 Nightly is intended for **internal/team use**. If you're an end user, get the stable build from [offline.tldraw.com](https://offline.tldraw.com) or the [tldraw-offline releases](https://github.com/tldraw/tldraw-offline/releases/latest) instead.
 
@@ -10,19 +10,19 @@ Artifact names are fixed across releases, so these links always point at the lat
 
 | Platform | Download |
 | --- | --- |
-| macOS (Apple silicon + Intel) | [tldraw-offline-nightly-mac-universal.dmg](https://github.com/tldraw/tldraw-offline-nightly/releases/latest/download/tldraw-offline-nightly-mac-universal.dmg) |
-| Windows x64 | [tldraw-offline-nightly-win-x64.exe](https://github.com/tldraw/tldraw-offline-nightly/releases/latest/download/tldraw-offline-nightly-win-x64.exe) |
-| Windows Arm64 | [tldraw-offline-nightly-win-arm64.exe](https://github.com/tldraw/tldraw-offline-nightly/releases/latest/download/tldraw-offline-nightly-win-arm64.exe) |
-| Linux x64 | [tldraw-offline-nightly-linux-x86_64.AppImage](https://github.com/tldraw/tldraw-offline-nightly/releases/latest/download/tldraw-offline-nightly-linux-x86_64.AppImage) or [tldraw-offline-nightly-linux-amd64.deb](https://github.com/tldraw/tldraw-offline-nightly/releases/latest/download/tldraw-offline-nightly-linux-amd64.deb) |
-| Linux Arm64 | [tldraw-offline-nightly-linux-arm64.AppImage](https://github.com/tldraw/tldraw-offline-nightly/releases/latest/download/tldraw-offline-nightly-linux-arm64.AppImage) |
+| macOS (Apple silicon + Intel) | [tldraw-office-nightly-mac-universal.dmg](https://github.com/tldraw/tldraw-office-nightly/releases/latest/download/tldraw-office-nightly-mac-universal.dmg) |
+| Windows x64 | [tldraw-office-nightly-win-x64.exe](https://github.com/tldraw/tldraw-office-nightly/releases/latest/download/tldraw-office-nightly-win-x64.exe) |
+| Windows Arm64 | [tldraw-office-nightly-win-arm64.exe](https://github.com/tldraw/tldraw-office-nightly/releases/latest/download/tldraw-office-nightly-win-arm64.exe) |
+| Linux x64 | [tldraw-office-nightly-linux-x86_64.AppImage](https://github.com/tldraw/tldraw-office-nightly/releases/latest/download/tldraw-office-nightly-linux-x86_64.AppImage) or [tldraw-office-nightly-linux-amd64.deb](https://github.com/tldraw/tldraw-office-nightly/releases/latest/download/tldraw-office-nightly-linux-amd64.deb) |
+| Linux Arm64 | [tldraw-office-nightly-linux-arm64.AppImage](https://github.com/tldraw/tldraw-office-nightly/releases/latest/download/tldraw-office-nightly-linux-arm64.AppImage) |
 
-Older builds are on the [Releases page](https://github.com/tldraw/tldraw-offline-nightly/releases). Versions are semver prereleases of the next release train, like `1.9.0-202607131439.9834194` (UTC timestamp + commit).
+Older builds are on the [Releases page](https://github.com/tldraw/tldraw-office-nightly/releases). Versions are semver prereleases of the next release train, like `1.9.0-202607131439.9834194` (UTC timestamp + commit).
 
 Nightly installs **side-by-side** with stable — different bundle id (`com.tldraw.desktop-nightly`), different name, different icon, and its own app data directory. Installing nightly does not touch your stable install or its files.
 
 ## Releases and auto-updates
 
-A new nightly is published every morning (07:00 UTC) whenever something has changed since the last one, plus on-demand runs. Installed apps check for updates on launch, download them in the background, and then prompt to install now or on next startup. You can also check manually from the application menu.
+A new nightly is published every morning (03:00 UTC) whenever something has changed since the last one, plus on-demand runs. Installed apps check for updates on launch, download them in the background, and then prompt to install now or on next startup. You can also check manually from the application menu.
 
 ## Local Canvas API
 
@@ -72,4 +72,4 @@ curl -X POST "http://localhost:$PORT/api/doc/{id}/exec" \
 
 ## License
 
-tldraw offline nightly is not open source. All rights reserved.
+tldraw office nightly is not open source. All rights reserved.
