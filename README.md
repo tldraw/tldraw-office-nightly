@@ -1,8 +1,15 @@
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/tldraw/tldraw-office-nightly/raw/main/assets/logo-dark.svg" />
+  <img height="52" alt="tldraw office" src="https://github.com/tldraw/tldraw-office-nightly/raw/main/assets/logo-light.svg" />
+</picture>
+</div>
+
 # tldraw office nightly
 
-The nightly channel for [tldraw office](https://github.com/tldraw/tldraw-offline) (formerly tldraw offline) — a local whiteboard for you and your agents. Nightly builds are packaged from the latest source before changes ship to stable users.
+The nightly channel for [tldraw office](https://github.com/tldraw/tldraw-office) (formerly tldraw offline) — a local whiteboard for you and your agents. Nightly builds are packaged from the latest source before changes ship to stable users.
 
-Nightly is intended for **internal/team use**. If you're an end user, get the stable build from [offline.tldraw.com](https://offline.tldraw.com) or the [tldraw-offline releases](https://github.com/tldraw/tldraw-offline/releases/latest) instead.
+Nightly is intended for **internal/team use**. If you're an end user, get the stable build from [offline.tldraw.com](https://offline.tldraw.com) or the [tldraw-office releases](https://github.com/tldraw/tldraw-office/releases/latest) instead.
 
 ## Download
 
